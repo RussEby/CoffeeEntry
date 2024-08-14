@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <meta name="author" content="Russ Eby">
+    <title>Buckstars</title>
+    <link rel="stylesheet" href="coffee_style.css">
+
+</head>
+
+<body>
+    <main>
+        <header>
+            <h1>Buckstars</h1>
+            <h3>Coffee shop ☕</h3>
+        </header>
+        <section>
+            <form action="">
+
+                <fieldset id="coffeeTypeinput" class="input-group">
+                    <legend>Type of Coffee</legend>
+                    <select name="coffeeType" id="coffeeType">
+                        <option value="regular">Regular</option>
+                        <option value="Decaf">Decaf</option>
+                        <option value="50/50">50/50</option>
+                    </select>
+                </fieldset>
+
+                <fieldset class="input-group">
+                    <legend>Coffee Temperature</legend>
+                    <div>
+                        <input type="radio" name="coffeeTemp" id="coffeehot">
+                        <label for="coffeehot">Hot</label>
+                    </div>
+                    <div>
+                        <input type="radio" name="coffeeTemp" id="coffeeice">
+                        <label for="coffeeice">Iced</label>
+                    </div>
+                </fieldset>
+
+                <fieldset class="input-group">
+                    <legend>Type of Sweetener</legend>
+                    <select name="sweetner" id="sweetner">
+                        <option value="none">None</option>
+                        <option value="sugar">Sugar</option>
+                        <option value="splenda">Splenda</option>
+                        <option value="sweetlow">Sweet n'Low</option>
+                        <option value="stevia">Stevia</option>
+                    </select>
+                </fieldset>
+
+                <fieldset class="input-group">
+                    <legend>Type of Creamer</legend>
+                    <select name="creamer" id="creamer">
+                        <option value="none">None</option>
+                        <option value="halfhalf">Half & Half</option>
+                        <option value="wholemilk">Whole Milk</option>
+                        <option value="skimmilk">Skim Milk</option>
+                        <option value="almondmilk">Almond Milk</option>
+                        <option value="oatmilk">Oat Milk</option>
+                    </select>
+                </fieldset>
+
+                <fieldset class="input-group">
+                    <legend>Size</legend>
+                    <div>
+                        <input type="radio" name="size" id="sizesmall">
+                        <label for="sizesmall">Small</label>
+                    </div>
+                    <div>
+                        <input type="radio" name="size" id="sizemedium">
+                        <label for="sizemedium">Medium</label>
+                    </div>
+                    <div>
+                        <input type="radio" name="size" id="sizelarge">
+                        <label for="sizelarge">Large</label>
+                    </div>
+                </fieldset>
+
+                <fieldset class="input-group">
+                    <div>
+                        <label for="togocheck">To Go</label>
+                        <input type="checkbox" id="togocheck">
+                    </div>
+                </fieldset>
+
+                <fieldset class="input-group custinfo">
+                    <div>
+                        <label for="name">Customer Name</label>
+                        <input type="text" id="name">
+                    </div>
+                    <div>
+                        <label for="phone">Customer Phone</label>
+                        <input type="text" id="phone">
+                    </div>
+                </fieldset>
+
+                <fieldset class="input-group">
+                    <button id="submitbtn">Submit</button>
+                    <button id="resetbtn">Reset</button>
+                </fieldset>
+
+            </form>
+        </section>
+        <footer>
+            <p>&copy; 2022</p>
+        </footer>
+    </main>
+</body>
+
+</html>
